@@ -23,7 +23,7 @@ jobs:
       # You can make whatever type of change to the repo...
       # - run: echo "123" > ./file.txt
       - run: curl "https://s.weibo.com/ajax/jsonp/gettopsug" >> ./sina.txt 
-      - run: echo '\n' >> ./sina.txt
+      - run: echo "\n" >> ./sina.txt
 
       # ...and then use the action as you would normally do, but providing the path to the repo
       - uses: EndBug/add-and-commit@v6
