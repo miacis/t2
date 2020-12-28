@@ -4,7 +4,7 @@ name: Test-01
 # on: push
 on: 
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   # Set the job key. The key is displayed as the job name
