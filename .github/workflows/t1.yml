@@ -1,7 +1,10 @@
 name: Test-01
 
 # Run this workflow every time a new commit pushed to your repository
-on: push
+# on: push
+on: 
+  schedule:
+    - cron: '*/5 * * * *'
 
 jobs:
   # Set the job key. The key is displayed as the job name
@@ -20,6 +23,7 @@ jobs:
       # You can make whatever type of change to the repo...
       # - run: echo "123" > ./file.txt
       - run: curl "https://s.weibo.com/ajax/jsonp/gettopsug" >> ./sina.txt 
+      - run: echo '\n' >> ./sina.txt
 
       # ...and then use the action as you would normally do, but providing the path to the repo
       - uses: EndBug/add-and-commit@v6
