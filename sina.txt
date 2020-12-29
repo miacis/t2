@@ -48,3 +48,4 @@ try{window.&({"data":{"list":[{"mid":"4587417409952835","emoticon":"","is_hot":1
 try{}catch(e){}\n
 try{}catch(e){}\n
 try{}catch(e){}\n
+try{}catch(e){}\n
