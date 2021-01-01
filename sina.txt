@@ -230,3 +230,4 @@ try{window.&({"data":{"list":[{"note":"送你一朵小红花彩蛋","emoticon":"
 try{}catch(e){}\n
 try{}catch(e){}\n
 try{}catch(e){}\n
+try{}catch(e){}\n
