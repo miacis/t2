@@ -1,10 +1,10 @@
 name: Test-01
 
 # Run this workflow every time a new commit pushed to your repository
-# on: push
-on: 
-  schedule:
-    - cron: '*/5 * * * *'
+on: push
+# on: 
+#   schedule:
+#     - cron: '*/5 * * * *'
 
 jobs:
   # Set the job key. The key is displayed as the job name
